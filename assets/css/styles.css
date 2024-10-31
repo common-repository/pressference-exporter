@@ -1,0 +1,399 @@
+.pressference-wrapper {
+  /** Google Button **/
+  /** Utilities **/
+}
+.pressference-wrapper .font-weight-300 {
+  font-weight: 300;
+}
+.pressference-wrapper .wrap {
+  margin: 10px 0 0;
+}
+.pressference-wrapper .order-status {
+  display: inline-flex;
+  line-height: 2.5em;
+  color: #777;
+  background: #E5E5E5;
+  border-radius: 4px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  margin: -0.25em 0;
+  cursor: inherit !important;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.pressference-wrapper .order-status.status-completed {
+  background: #C8D7E1;
+  color: #2e4453;
+}
+.pressference-wrapper .order-status.status-on-hold {
+  background-color: #f8dda7;
+  color: #94660c;
+}
+.pressference-wrapper .order-status.status-failed {
+  background: #eba3a3;
+  color: #761919;
+}
+.pressference-wrapper .order-status.status-processing {
+  background: #C6E1C6;
+  color: #5B841B;
+}
+.pressference-wrapper .order-status.status-trash {
+  background: #eba3a3;
+  color: #761919;
+}
+.pressference-wrapper .order-status > span {
+  margin: 0 1em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.pressference-wrapper .column-bill_to > .description {
+  display: block;
+  color: #999;
+}
+.pressference-wrapper .pf-order-table .wp-list-table td, .pressference-wrapper .pf-order-table .wp-list-table th {
+  vertical-align: middle;
+}
+.pressference-wrapper .pf-order-table .wp-list-table .check-column {
+  padding-top: 0;
+}
+.pressference-wrapper p > label {
+  display: inline;
+  font-weight: bold;
+}
+.pressference-wrapper p.submit {
+  margin-top: 20px;
+}
+.pressference-wrapper .pf-btn,
+.pressference-wrapper .load-btn {
+  color: #555;
+  border-color: #ccc;
+  background: #f7f7f7;
+  box-shadow: 0 1px 0 #ccc;
+  vertical-align: top;
+  position: relative;
+  padding: 0;
+  height: 28px;
+  width: 28px !important;
+  display: inline-block;
+  box-sizing: border-box;
+  float: right;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 26px;
+  margin: 0;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  -webkit-appearance: none;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+.pressference-wrapper #pf-load-profile-metabox.postbox .inside,
+.pressference-wrapper #pf-create-profile-metabox.postbox .inside,
+.pressference-wrapper #pf-filter-metabox.postbox .inside,
+.pressference-wrapper #pf-filter-result-metabox.postbox .inside,
+.pressference-wrapper #pf-column-mapping-metabox.postbox .inside,
+.pressference-wrapper #pf-schedule-export-metabox.postbox .inside {
+  margin: 0px;
+  padding: 0px;
+}
+.pressference-wrapper #pf-load-profile-metabox .select-field,
+.pressference-wrapper #pf-create-profile-metabox .select-field,
+.pressference-wrapper #pf-filter-metabox .select-field,
+.pressference-wrapper #pf-filter-result-metabox .select-field,
+.pressference-wrapper #pf-column-mapping-metabox .select-field,
+.pressference-wrapper #pf-schedule-export-metabox .select-field {
+  float: left;
+}
+.pressference-wrapper #load_profile_actions,
+.pressference-wrapper #save_profile_actions,
+.pressference-wrapper .metabox-content,
+.pressference-wrapper .mb-footer-ctrl,
+.pressference-wrapper .padding-10 {
+  padding: 10px;
+}
+.pressference-wrapper #save_profile_actions,
+.pressference-wrapper .mb-footer-ctrl {
+  clear: both;
+  border-top: 1px solid #ddd;
+  background: #f5f5f5;
+}
+.pressference-wrapper #save_profile_actions button,
+.pressference-wrapper .mb-footer-ctrl button {
+  text-align: center;
+}
+.pressference-wrapper .slick-header-columns {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.pressference-wrapper .slick-header-columns * {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.pressference-wrapper .slick-header-columns *:before, .pressference-wrapper .slick-header-columns *:after {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.pressference-wrapper #pf_filter_result {
+  font-size: 10px;
+}
+.pressference-wrapper .form-control {
+  display: inline-block !important;
+  width: auto !important;
+}
+.pressference-wrapper .form-control.is-invalid, .pressference-wrapper .form-control.widefat {
+  padding: 0 8px;
+  border-color: #7e8993;
+  max-height: 30px;
+  font-size: 13px;
+}
+.pressference-wrapper .form-control.is-invalid:focus, .pressference-wrapper .form-control.widefat:focus {
+  border-color: #007cba;
+  color: #016087;
+  box-shadow: 0 0 0 1px #007cba;
+}
+.pressference-wrapper select.form-control.is-invalid, .pressference-wrapper select.form-control.widefat {
+  padding: 0 24px 0 8px;
+  border-color: #7e8993;
+  max-height: 30px;
+  font-size: 13px;
+}
+.pressference-wrapper select.form-control.is-invalid:focus, .pressference-wrapper select.form-control.widefat:focus {
+  border-color: #007cba;
+  color: #016087;
+  box-shadow: 0 0 0 1px #007cba;
+}
+.pressference-wrapper .search-box {
+  margin: 0;
+}
+.pressference-wrapper .wp-list-table a {
+  color: #0073aa;
+}
+.pressference-wrapper .exporter_profiles .column-actions p {
+  margin: 2px 0;
+}
+.pressference-wrapper .exporter_profiles .column-actions p .tbl-action-ctrl {
+  margin: 0 5px 0 0;
+}
+.pressference-wrapper .exporter_profiles .column-actions p .tbl-action-ctrl > i {
+  /*transform: translateY(50%);*/
+}
+.pressference-wrapper #pf-filter-metabox .hide-default,
+.pressference-wrapper #pf-load-profile-metabox .hide-default {
+  display: none;
+}
+.pressference-wrapper .pf-datepicker {
+  width: 100%;
+}
+.pressference-wrapper .tablenav .actions {
+  overflow: unset;
+}
+.pressference-wrapper #search_id-search-input::-webkit-search-cancel-button {
+  -webkit-appearance: searchfield-cancel-button;
+}
+.pressference-wrapper .nav-tab {
+  color: #555;
+  text-decoration: none;
+  background: #dcdcde;
+}
+.pressference-wrapper .nav-tab:hover {
+  color: #444;
+  background: #fff;
+  text-decoration: none;
+}
+.pressference-wrapper .nav-tab.nav-tab-active {
+  background: transparent;
+}
+.pressference-wrapper .nav-tab.nav-tab-active:hover {
+  text-decoration: none;
+}
+.pressference-wrapper .input-text {
+  padding: 6px;
+}
+.pressference-wrapper .input-select {
+  min-width: 10%;
+  max-width: 100%;
+}
+.pressference-wrapper .tagging {
+  margin: 16px 0 0;
+  padding: 0;
+}
+.pressference-wrapper .tagging li {
+  float: left;
+  margin-right: 5px;
+}
+.pressference-wrapper .notice p {
+  margin: 0.5em 0;
+  padding: 2px;
+}
+.pressference-wrapper .date-time-text {
+  display: inline-block;
+  min-width: 140px;
+}
+.pressference-wrapper .small-text {
+  width: 56px;
+}
+.pressference-wrapper .spinner {
+  float: none;
+}
+.pressference-wrapper #cloudAccess .card {
+  max-width: 100%;
+  padding: 0;
+  margin-top: 0;
+}
+.pressference-wrapper #cloud-setting-form .form-table > tbody > tr > th {
+  display: none;
+}
+.pressference-wrapper #cloud-setting-form .form-table td {
+  padding: 15px 0;
+}
+.pressference-wrapper .date.date_time_picker-t .bootstrap-datetimepicker-widget {
+  padding: 8px 2.8px;
+}
+.pressference-wrapper .bootstrap-datetimepicker-widget .timepicker-picker > .table-condensed {
+  margin: 0 auto;
+}
+.pressference-wrapper .bootstrap-datetimepicker-widget .timepicker-picker > .table-condensed td {
+  text-align: center;
+}
+.pressference-wrapper .bootstrap-datetimepicker-widget .timepicker-hours .hour {
+  padding: 10px;
+}
+.pressference-wrapper .bootstrap-datetimepicker-widget .timepicker-minutes .minute {
+  padding: 10px;
+}
+.pressference-wrapper #pf-schedule-export-metabox label {
+  margin: 0;
+}
+.pressference-wrapper .line-through-center {
+  width: 100%;
+  text-align: center;
+  /*border-bottom: 1px solid #000; 
+     line-height: 0.1em;
+  margin: 10px 0 20px;*/
+}
+.pressference-wrapper .line-through-center:before, .pressference-wrapper .line-through-center:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 40%;
+}
+.pressference-wrapper .line-through-center:before {
+  right: 10px;
+  margin-left: 15px;
+}
+.pressference-wrapper .line-through-center:after {
+  left: 10px;
+  margin-right: 15px;
+}
+.pressference-wrapper .pf-tooltip {
+  font-size: 14px;
+  float: right;
+}
+.pressference-wrapper .pf-tooltip:before {
+  vertical-align: center;
+}
+.pressference-wrapper .dangerous-note {
+  color: red;
+}
+.pressference-wrapper #pf-column-mapping-metabox .metabox-content > div:last-child .add_field {
+  display: inline-block !important;
+}
+.pressference-wrapper #gDrive a {
+  display: inline-block;
+}
+.pressference-wrapper .google-btn {
+  width: 184px;
+  height: 42px;
+  background-color: #4285f4;
+  border-radius: 2px;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.pressference-wrapper .google-btn .google-icon-wrapper {
+  position: absolute;
+  margin-top: 1px;
+  margin-left: 1px;
+  width: 40px;
+  height: 40px;
+  border-radius: 2px;
+  background-color: #fff;
+}
+.pressference-wrapper .google-btn .google-icon {
+  position: absolute;
+  margin-top: 11px;
+  margin-left: 11px;
+  width: 18px;
+  height: 18px;
+}
+.pressference-wrapper .google-btn .btn-text {
+  float: right;
+  margin: 11px 11px 0 0;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  font-family: "Roboto";
+}
+.pressference-wrapper .google-btn:hover {
+  box-shadow: 0 0 6px #4285f4;
+}
+.pressference-wrapper .google-btn:active {
+  background: #1669F2;
+}
+.pressference-wrapper .fa-spinner {
+  display: none;
+}
+.pressference-wrapper .loading .fa-spinner {
+  display: inline-block;
+}
+.pressference-wrapper .comparison-table {
+  max-width: 800px;
+}
+.pressference-wrapper .comparison-table tr th {
+  width: 100%;
+  white-space: nowrap;
+  border: 1px solid #c3c4c7;
+  padding: 1em;
+  word-break: break-all;
+}
+.pressference-wrapper .comparison-table tr td {
+  border: 1px solid #c3c4c7;
+  padding: 1em;
+  word-break: break-all;
+}
+.pressference-wrapper .comparison-table tr td:not(:first-child) {
+  text-align: center;
+}
+.pressference-wrapper .comparison-table .group td {
+  padding: 1em;
+  background-color: #fff;
+  font-weight: bold;
+}
+.pressference-wrapper .comparison-table tbody tr:not(.group):hover {
+  background-color: rgba(5, 5, 5, 0.05);
+  border-radius: 10px;
+}
+.pressference-wrapper .nav-tab-wrapper {
+  display: block !important;
+}
+.pressference-wrapper .margin-top-20 {
+  margin-top: 20px;
+}
+.pressference-wrapper .margin-bottoom-20 {
+  margin-bottom: 20px;
+}
+.pressference-wrapper .no-border {
+  border: 0 !important;
+}
+.pressference-wrapper .green-color {
+  color: green;
+}
+.pressference-wrapper .red-color {
+  color: red;
+}
+
+/*# sourceMappingURL=styles.css.map */
